@@ -1,0 +1,16 @@
+---
+// Component Imports
+import Counter from '../components/Counter.jsx'
+import Layout from '../layouts/Base.astro'
+
+const someProps = {
+  count: 0,
+}
+---
+<Layout title="Homepage">
+  <div class="home">
+    <Counter {...someProps} client:visible>
+      <h1>Hello React!</h1>
+    </Counter>
+  </div>
+</Layout>

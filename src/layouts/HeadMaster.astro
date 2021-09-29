@@ -1,0 +1,18 @@
+---
+// src/layouts/HeadMaster.astro
+
+const {title} = Astro.props;
+---
+<meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width"
+/>
+
+<title>{title} | My Site</title>
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+<style lang="scss" global>
+  @use '../styles/main.scss';
+</style>

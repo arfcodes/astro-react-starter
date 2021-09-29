@@ -1,0 +1,23 @@
+---
+// src/layouts/Base.astro
+import HeadMaster from './HeadMaster.astro';
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+
+const {title} = Astro.props;
+---
+  
+<html lang="en">
+  <head>
+    <HeadMaster title={title} />
+  </head>
+  <body>
+    <div class="root">
+      <Header />
+      <main class="main">
+        <slot />
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>

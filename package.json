@@ -1,0 +1,27 @@
+{
+  "name": "@arfcodes/astro-react-starter",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Astro + React Starter",
+  "keywords": [
+    "astro",
+    "react",
+    "javascript",
+    "starter"
+  ],
+  "author": "M Arif Mahthunisnaini",
+  "license": "MIT",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "astro": "^0.20.8"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "prop-types": "^15.7.2"
+  }
+}
